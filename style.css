@@ -442,6 +442,17 @@ nav a {
 
     }
 
+    .goal {
+        width: 95px;
+        height: 60px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+        padding: 120px 150px 30px 400px;
+        text-align: center;
+    }
+
     .line {
         width: 755px;
         border: 1px solid red;
@@ -612,7 +623,8 @@ nav a {
         color: #FFFFFF;
         padding-right: 30px;
     }
-
-
-
 }
+
+/*-------
+The End  
+----------*/
