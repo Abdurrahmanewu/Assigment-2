@@ -565,11 +565,51 @@ nav a {
     -------------*/
     .footer {
         width: 375px;
-        height: 2847px;
+        height: 412px;
         background-color: black;
         margin-top: 100px;
         margin-left: 120px;
 
+    }
+
+    .goal {
+        width: 52px;
+        height: 33px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        color: white;
+        padding: 120px 750px 30px 150px;
+    }
+
+    .line {
+        width: 335px;
+        border: 1px solid red;
+    }
+
+    .footer-detail {
+        display: grid;
+        align-content: space-between;
+        Width: 100%;
+        Height: 24px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-right: 20px;
+
+    }
+
+    .social-media {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .social-media a {
+        text-decoration: none;
+        color: #FFFFFF;
+        padding-right: 30px;
     }
 
 
