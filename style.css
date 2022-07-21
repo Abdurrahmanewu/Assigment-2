@@ -206,6 +206,37 @@ Second-page style end
     height: 26px;
 }
 
+/*------------- 
+Bonus mark part  
+--------------*/
+
+.view {
+    visibility: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 50px;
+
+
+}
+
+
+.view-all {
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    width: 131px;
+    height: 47px;
+    background-image: linear-gradient(red, red);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 20px;
+}
+
 /*------------ 
 Footer Section 
 -------------*/
@@ -349,4 +380,53 @@ nav a {
         line-height: 20px;
         text-align: center;
     }
+
+    .videos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 2px;
+        width: 100%;
+        margin: 0 35% 0 20%;
+
+
+
+
+    }
+
+    .video-bar {
+        width: 312px;
+        height: 362px;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
+    .view {
+        visibility: visible;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding-top: 50px;
+
+
+    }
+
+    .view-all {
+        text-decoration: none;
+        color: white;
+        padding: 10px 24px;
+        width: 131px;
+        height: 47px;
+        background-image: linear-gradient(red, red);
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
 }
