@@ -564,7 +564,7 @@ nav a {
     Footer Section 
     -------------*/
     .footer {
-        width: 375px;
+        width: 100%;
         height: 412px;
         background-color: black;
         margin-top: 100px;
